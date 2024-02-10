@@ -13,7 +13,7 @@
 
 		<classes>
 			<!--<class name="Test.mainPageHeaderTest"></class> -->
-			<class name="Test.verifyAddMainPage"></class>
+			<class name="Test.mainPageHeaderTest"></class>
 		</classes>
 		 
 	</test> <!--

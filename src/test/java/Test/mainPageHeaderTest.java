@@ -16,14 +16,9 @@ public class mainPageHeaderTest extends RunBrowser {
 	
 	public static main_Page t;
 	
-	
-	
-	
-	
-	
 	@BeforeMethod(description = "verification of launch page and title")
 	public void verification_of_launch_page_and_title() {
-		driver.get("https://www.carwale.com");
+		 
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 

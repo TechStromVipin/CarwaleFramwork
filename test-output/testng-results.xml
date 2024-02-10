@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T18:39:40 IST" name="Suite" finished-at="2024-01-25T18:40:03 IST" duration-ms="22715">
+  <suite started-at="2024-02-10T12:00:33 IST" name="Suite" finished-at="2024-02-10T12:00:49 IST" duration-ms="16716">
     <groups>
       <group name="smoke">
-        <method signature="mainPageHeaderTest.verify_Login()[pri:1, instance:Test.verifyAddMainPage@55a147cc]" name="verify_Login" class="Test.mainPageHeaderTest"/>
-        <method signature="mainPageHeaderTest.testHeaders()[pri:2, instance:Test.verifyAddMainPage@55a147cc]" name="testHeaders" class="Test.mainPageHeaderTest"/>
-        <method signature="mainPageHeaderTest.testrightHeader()[pri:3, instance:Test.verifyAddMainPage@55a147cc]" name="testrightHeader" class="Test.mainPageHeaderTest"/>
+        <method signature="mainPageHeaderTest.verify_Login()[pri:1, instance:Test.mainPageHeaderTest@1e6a3214]" name="verify_Login" class="Test.mainPageHeaderTest"/>
+        <method signature="mainPageHeaderTest.testHeaders()[pri:2, instance:Test.mainPageHeaderTest@1e6a3214]" name="testHeaders" class="Test.mainPageHeaderTest"/>
+        <method signature="mainPageHeaderTest.testrightHeader()[pri:3, instance:Test.mainPageHeaderTest@1e6a3214]" name="testrightHeader" class="Test.mainPageHeaderTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="verifyAddMainPage.click_to_test_jeep_Add()[pri:1, instance:Test.verifyAddMainPage@55a147cc]" name="click_to_test_jeep_Add" class="Test.verifyAddMainPage"/>
-        <method signature="mainPageHeaderTest.testrightHeader()[pri:3, instance:Test.verifyAddMainPage@55a147cc]" name="testrightHeader" class="Test.mainPageHeaderTest"/>
+        <method signature="mainPageHeaderTest.testrightHeader()[pri:3, instance:Test.mainPageHeaderTest@1e6a3214]" name="testrightHeader" class="Test.mainPageHeaderTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-01-25T18:39:40 IST" name="ChromeTest" finished-at="2024-01-25T18:40:03 IST" duration-ms="22715">
-      <class name="Test.verifyAddMainPage">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:41 IST" name="OpenBrowser" finished-at="2024-01-25T18:39:42 IST" duration-ms="1600" status="PASS">
+    <test started-at="2024-02-10T12:00:33 IST" name="ChromeTest" finished-at="2024-02-10T12:00:49 IST" duration-ms="16716">
+      <class name="Test.mainPageHeaderTest">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:33 IST" name="OpenBrowser" finished-at="2024-02-10T12:00:37 IST" duration-ms="3852" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,87 +26,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:42 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-01-25T18:39:44 IST" duration-ms="1755" status="PASS">
+        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:37 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-02-10T12:00:37 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verification_of_launch_page_and_title -->
-        <test-method is-config="true" signature="verify_MainPage()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:44 IST" name="verify_MainPage" finished-at="2024-01-25T18:39:44 IST" duration-ms="339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_MainPage -->
-        <test-method signature="click_to_test_jeep_Add()[pri:1, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:44 IST" name="click_to_test_jeep_Add" description="Test Jeep Banner Add" finished-at="2024-01-25T18:39:48 IST" duration-ms="3459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_to_test_jeep_Add -->
-        <test-method is-config="true" signature="add_verification_done()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:48 IST" name="add_verification_done" finished-at="2024-01-25T18:39:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_verification_done -->
-        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:48 IST" name="Verificariondone" description="verification done" finished-at="2024-01-25T18:39:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verificariondone -->
-        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:48 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-01-25T18:39:48 IST" duration-ms="530" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verification_of_launch_page_and_title -->
-        <test-method is-config="true" signature="verify_MainPage()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:48 IST" name="verify_MainPage" finished-at="2024-01-25T18:39:49 IST" duration-ms="532" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_MainPage -->
-        <test-method signature="verify_Login()[pri:1, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:49 IST" name="verify_Login" description="Verify Login and close popup" finished-at="2024-01-25T18:39:49 IST" duration-ms="271" status="PASS">
+        <test-method signature="verify_Login()[pri:1, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:37 IST" name="verify_Login" description="Verify Login and close popup" finished-at="2024-02-10T12:00:37 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login -->
-        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:49 IST" name="Verificariondone" description="verification done" finished-at="2024-01-25T18:39:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:37 IST" name="Verificariondone" description="verification done" finished-at="2024-02-10T12:00:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verificariondone -->
-        <test-method is-config="true" signature="add_verification_done()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:49 IST" name="add_verification_done" finished-at="2024-01-25T18:39:49 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_verification_done -->
-        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:49 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-01-25T18:39:50 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:37 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-02-10T12:00:37 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verification_of_launch_page_and_title -->
-        <test-method is-config="true" signature="verify_MainPage()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:50 IST" name="verify_MainPage" finished-at="2024-01-25T18:39:50 IST" duration-ms="737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_MainPage -->
-        <test-method signature="testHeaders()[pri:2, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:50 IST" name="testHeaders" description="Hower on and Test Newcars,Usedcars and Reviews and News shoing required options" finished-at="2024-01-25T18:39:57 IST" duration-ms="6549" status="PASS">
+        <test-method signature="testHeaders()[pri:2, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:37 IST" name="testHeaders" description="Hower on and Test Newcars,Usedcars and Reviews and News shoing required options" finished-at="2024-02-10T12:00:44 IST" duration-ms="6504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHeaders -->
-        <test-method is-config="true" signature="add_verification_done()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:57 IST" name="add_verification_done" finished-at="2024-01-25T18:39:57 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_verification_done -->
-        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:57 IST" name="Verificariondone" description="verification done" finished-at="2024-01-25T18:39:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:44 IST" name="Verificariondone" description="verification done" finished-at="2024-02-10T12:00:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verificariondone -->
-        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:57 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-01-25T18:39:58 IST" duration-ms="547" status="PASS">
+        <test-method is-config="true" signature="verification_of_launch_page_and_title()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:44 IST" name="verification_of_launch_page_and_title" description="verification of launch page and title" finished-at="2024-02-10T12:00:44 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verification_of_launch_page_and_title -->
-        <test-method is-config="true" signature="verify_MainPage()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:58 IST" name="verify_MainPage" finished-at="2024-01-25T18:39:58 IST" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_MainPage -->
-        <test-method signature="testrightHeader()[pri:3, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:39:58 IST" name="testrightHeader" description="Test searchbar ,language changing option and Location option in headders" finished-at="2024-01-25T18:40:03 IST" duration-ms="4854" status="PASS">
+        <test-method signature="testrightHeader()[pri:3, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:44 IST" name="testrightHeader" description="Test searchbar ,language changing option and Location option in headders" finished-at="2024-02-10T12:00:49 IST" duration-ms="5173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testrightHeader -->
-        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:40:03 IST" name="Verificariondone" description="verification done" finished-at="2024-01-25T18:40:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Verificariondone()[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:49 IST" name="Verificariondone" description="verification done" finished-at="2024-02-10T12:00:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verificariondone -->
-        <test-method is-config="true" signature="add_verification_done()[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:40:03 IST" name="add_verification_done" finished-at="2024-01-25T18:40:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_verification_done -->
-        <test-method is-config="true" signature="CloseBrowser(java.lang.String)[pri:0, instance:Test.verifyAddMainPage@55a147cc]" started-at="2024-01-25T18:40:03 IST" name="CloseBrowser" finished-at="2024-01-25T18:40:03 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser(java.lang.String)[pri:0, instance:Test.mainPageHeaderTest@1e6a3214]" started-at="2024-02-10T12:00:49 IST" name="CloseBrowser" finished-at="2024-02-10T12:00:49 IST" duration-ms="275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- Test.verifyAddMainPage -->
+      </class> <!-- Test.mainPageHeaderTest -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

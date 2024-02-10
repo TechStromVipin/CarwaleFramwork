@@ -12,9 +12,9 @@
         <methods>
           <include name="verification_of_launch_page_and_title"/>
           <include name="Verificariondone"/>
-          <include name="verify_Login"/>
           <include name="CloseBrowser"/>
           <include name="OpenBrowser"/>
+          <include name="click_to_test_jeep_Add"/>
           <include name="verify_MainPage"/>
           <include name="add_verification_done"/>
         </methods>

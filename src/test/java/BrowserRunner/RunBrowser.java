@@ -20,7 +20,7 @@ public class RunBrowser extends LaunchBrowser {
 		{
 			
 			LaunchBrowser.LaunchChrome();
-			 
+			driver.get("https://www.carwale.com");
 			
 		}
 		
@@ -28,7 +28,7 @@ public class RunBrowser extends LaunchBrowser {
 			
 		{
 			 LaunchBrowser.Launchedge();
-			
+			 driver.get("https://www.carwale.com");
 		}
 	
 	}
@@ -47,7 +47,7 @@ public class RunBrowser extends LaunchBrowser {
 		{
           
 		   
-	 	  driver.close();
+	 	 // driver.close();
 	 	  driver.quit();
 
 		}
@@ -55,7 +55,7 @@ public class RunBrowser extends LaunchBrowser {
 		else if(browser.equals("edge"))
 
 		{
-			 driver.close();
+			 //driver.close();
 			 driver.quit();
 
 		}
